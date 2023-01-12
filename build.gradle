@@ -207,3 +207,8 @@ compileTestKotlin {
 clean {
     delete sharedDir
 }
+
+
+dependencyLocking {    
+    lockAllConfigurations()
+}
